@@ -19,8 +19,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -33,7 +33,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 > Describe your project in 1 or 2 sentences.
 
-**[VETCLINICDATABASE]** is a...
+**[VETCLINICDATABASE]** is a demestic animals database that helps one manage animals in a clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 PostgreSQL
@@ -85,27 +85,19 @@ Clone this repository to your desired folder:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/tjay1760)
+- Twitter: [@twitterhandle](https://twitter.com/TjayPod)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-murianki-thiongo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] Add more Tables
+- [ ] Simple UI to manage data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,29 +121,20 @@ If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse (microverse.org) for providing the resources and the knowledge to work on projects like this.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+### How do install PostgreSQL
+ https://www.postgresql.org/download/
 
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+### Where to learn basics of PostgreSQL?
+https://www.postgresqltutorial.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
