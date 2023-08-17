@@ -94,10 +94,14 @@ WHERE vet_id = (SELECT id FROM vets WHERE name = 'Stephanie Mendez');
 SELECT vets.name as vet , (SELECT name FROM species WHERE id = specializations.species_id) as species FROM vets 
 LEFT JOIN specializations ON specializations.vet_id =vets.id;
 
-SELECT (SELECT name FROM animals WHERE id = visits.animal_id) AS animal 
-FROM visits
-WHERE vet_id = (SELECT id FROM vets WHERE name = ' Stephanie Mendez')
-AND visits.visit_date BETWEEN '2020-04-01' AND '2020-08-30';
+
+SELECT a.name AS animal_name, v.name AS vet_name, vi.visit_date
+FROM animals a
+JOIN visits vi ON a.id = vi.animal_id
+JOIN vets v ON vi.vet_id = v.id
+WHERE v.name = 'Stephanie Mendez'
+  AND vi.visit_date BETWEEN '2020-04-01' AND '2020-08-30';
+
 
 SELECT (SELECT name FROM animals WHERE id = visits.animal_id) , COUNT(animal_id) FROM visits
 GROUP BY animal_id
