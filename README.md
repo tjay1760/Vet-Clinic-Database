@@ -31,7 +31,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 # 📖 [VETCLINICDATABASE] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[VETCLINICDATABASE]** is a demestic animals database that helps one manage animals in a clinic
 
@@ -48,9 +47,9 @@ PostgreSQL
 ### Key Features <a name="key-features"></a>
 
 
-- **[key_feature_1]** Search Animal Database
-- **[key_feature_2]** Add a new animal to database
-- **[key_feature_3]** Modify animal information
+- Search Animal Database
+- Add a new animal to database
+- Modify animal information
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +61,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 In order to run this project you need to:
 
-Install the postgreSQL in your machine first.
+Install postgreSQL in your machine first.
 
 then Create a Database and run the commands in:
 
@@ -72,7 +71,7 @@ then Create a Database and run the commands in:
 
   3.The queries.sql file to search the data in tables.
 
-### Install
+### Setup <a name="setup"></a>
 
 Install this project with:
 Clone this repository to your desired folder:
@@ -81,9 +80,8 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **John Thiong'o**
 
 - GitHub: [@githubhandle](https://github.com/tjay1760)
 - Twitter: [@twitterhandle](https://twitter.com/TjayPod)
@@ -94,7 +92,6 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] Add more Tables
 - [ ] Simple UI to manage data
